@@ -68,7 +68,7 @@ export default {
           }
         })
       } else {
-        this.$message.info('左侧没有标签')
+        this.$message.info(this.$t('multiTab.noTabsLeft'))
       }
     },
     closeRight (e) {
@@ -80,7 +80,7 @@ export default {
           }
         })
       } else {
-        this.$message.info('右侧没有标签')
+        this.$message.info(this.$t('multiTab.noTabsRight'))
       }
     },
     closeAll (e) {
@@ -112,10 +112,10 @@ export default {
     renderTabPaneMenu (e) {
       return (
         <a-menu {...{ on: { click: this.closeMenuClick } }}>
-          <a-menu-item key="close-that" data-vkey={e}>关闭当前标签</a-menu-item>
-          <a-menu-item key="close-right" data-vkey={e}>关闭右侧</a-menu-item>
-          <a-menu-item key="close-left" data-vkey={e}>关闭左侧</a-menu-item>
-          <a-menu-item key="close-all" data-vkey={e}>关闭全部</a-menu-item>
+          <a-menu-item key="close-that" data-vkey={e}>{this.$t('multiTab.closeCurrent')}</a-menu-item>
+          <a-menu-item key="close-right" data-vkey={e}>{this.$t('multiTab.closeRight')}</a-menu-item>
+          <a-menu-item key="close-left" data-vkey={e}>{this.$t('multiTab.closeLeft')}</a-menu-item>
+          <a-menu-item key="close-all" data-vkey={e}>{this.$t('multiTab.closeAll')}</a-menu-item>
         </a-menu>
       )
     },

@@ -113,8 +113,8 @@ export default {
       if (this.showInternship) {
         formatOptions.push(
           ...[
-            { id: -2, label: '全职' },
-            { id: -3, label: '实习生' },
+            { id: -2, label: this.$t('employeeTransfer.fullTime') },
+            { id: -3, label: this.$t('employeeTransfer.intern') },
           ]
         )
       }
@@ -210,10 +210,10 @@ export default {
     },
     getLabel(id) {
       if (id === -2) {
-        return '全职'
+        return this.$t('employeeTransfer.fullTime')
       }
       if (id === -3) {
-        return '实习生'
+        return this.$t('employeeTransfer.intern')
       }
       const _split = id.split('-')
       const type = _split[0]

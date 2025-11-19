@@ -6,15 +6,15 @@
     >
       <img src="../../assets/ops_logout.png" />
       <p v-if="_enable_list && _enable_list.length">
-        <strong>您即将跳转至{{ _enable_list[0].auth_type }}</strong>
+        <strong>{{ $t('userAuth.redirectingTo', { authType: _enable_list[0].auth_type }) }}</strong>
       </p>
       <p>
         <span style="color:#2f54eb">{{ time }}</span>
-        秒后自动跳转
+        {{ $t('userAuth.autoRedirectIn') }}
       </p>
       <a-space size="large">
-        <a-button type="primary" @click="handleConfirm">确认</a-button>
-        <a-button @click="handleCancel">取消</a-button>
+        <a-button type="primary" @click="handleConfirm">{{ $t('confirm') }}</a-button>
+        <a-button @click="handleCancel">{{ $t('cancel') }}</a-button>
       </a-space>
     </div>
   </div>

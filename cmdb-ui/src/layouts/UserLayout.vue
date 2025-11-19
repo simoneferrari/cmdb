@@ -9,7 +9,7 @@
           </a>
         </div>
         <div class="desc">
-          自动化统一运维平台
+          {{ $t('layout.platformTagline') }}
         </div>
       </div>
 

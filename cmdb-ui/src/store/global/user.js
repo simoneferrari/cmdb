@@ -24,15 +24,15 @@ const user = {
     detailPermissions: {
       'backend': [
         {
-          'name': '公司信息',
+          'name': 'Company Info',
           'permissions': ['read']
         },
         {
-          'name': '公司架构',
+          'name': 'Company Structure',
           'permissions': ['read']
         },
         {
-          'name': '用户分组',
+          'name': 'User Group',
           'permissions': ['read']
         }
       ]
@@ -138,7 +138,7 @@ const user = {
           })
           role.permissionList = role.permissions.map(permission => { return permission })
           searchPermResourceByRoleId(result.rid, {
-            resource_type_id: '操作权限',
+            resource_type_id: 'Operation Permission',
             app_id: 'backend',
           }).then(res => {
             commit('SET_DETAIL_PERMISSIONS', { backend: res.resources })
