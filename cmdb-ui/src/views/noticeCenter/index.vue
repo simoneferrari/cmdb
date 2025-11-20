@@ -54,15 +54,15 @@
             v-model="filterName"
             class="ops-input-radius"
             :style="{ width: '300px', marginRight: '20px' }"
-            placeholder="请输入你需要搜索的内容"
+            :placeholder="$t('noticeCenter.searchPlaceholder')"
             @search="updateTableData()"
           />
           <div class="ops-list-batch-action">
             <template v-if="!!selectedRowKeys.length">
-              <span @click="batchChangeIsRead('read')">标为已读</span>
+              <span @click="batchChangeIsRead('read')">{{ $t('noticeCenter.markAsRead') }}</span>
               <a-divider type="vertical" />
-              <span @click="batchChangeIsRead('unread')">标为未读</span>
-              <span>选取: {{ selectedRowKeys.length }} 项</span>
+              <span @click="batchChangeIsRead('unread')">{{ $t('noticeCenter.markAsUnread') }}</span>
+              <span>{{ $t('noticeCenter.selected', { count: selectedRowKeys.length }) }}</span>
             </template>
           </div>
         </div>
@@ -83,17 +83,17 @@
         :height="tableHeight"
       >
         <vxe-column type="checkbox" width="60px"></vxe-column>
-        <vxe-column field="content" title="标题内容">
+        <vxe-column field="content" :title="$t('noticeCenter.titleContent')">
           <template #default="{row}">
             <span v-html="row.content"></span>
           </template>
         </vxe-column>
-        <vxe-column field="created_at" title="提交时间" width="150px">
+        <vxe-column field="created_at" :title="$t('noticeCenter.submitTime')" width="150px">
           <template #default="{row}">
             {{ moment(row.created_at).format('YYYY-MM-DD HH:mm:ss') }}
           </template>
         </vxe-column>
-        <vxe-column field="category" title="类型" width="150px">
+        <vxe-column field="category" :title="$t('noticeCenter.type')" width="150px">
           <template #default="{row}">
             {{ `${row.app_name}-${row.category}` }}
           </template>
@@ -106,7 +106,7 @@
           show-quick-jumper
           :current="tablePage.currentPage"
           :total="tablePage.totalResult"
-          :show-total="(total, range) => `当前展示 ${range[0]}-${range[1]} 条数据, 共 ${total} 条`"
+          :show-total="(total, range) => $t('pagination.total', { range0: range[0], range1: range[1], total })"
           :page-size="tablePage.pageSize"
           :default-current="1"
           @change="pageOrSizeChange"
@@ -134,20 +134,20 @@ export default {
       leftList: [
         {
           value: '',
-          label: '全部消息',
+          label: this.$t('noticeCenter.allMessages'),
         },
         {
           value: false,
-          label: '未读消息',
+          label: this.$t('noticeCenter.unreadMessages'),
         },
         {
           value: true,
-          label: '已读消息',
+          label: this.$t('noticeCenter.readMessages'),
         },
       ],
       current: {
         value: '',
-        label: '全部消息',
+        label: this.$t('noticeCenter.allMessages'),
       },
       tablePage: {
         currentPage: 1,
@@ -203,7 +203,7 @@ export default {
         if (_apps.length) {
           _apps.unshift({
             value: '',
-            label: '全部',
+            label: this.$t('noticeCenter.all'),
           })
         }
         this.apps = _apps

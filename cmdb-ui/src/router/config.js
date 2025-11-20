@@ -36,7 +36,7 @@ export const generatorDynamicRouter = async () => {
         hidden: true,
         path: '/noticecenter',
         name: 'notice_center',
-        meta: { title: '消息中心' },
+        meta: { title: 'noticeCenter.title' },
         component: () => import(/* webpackChunkName: "setting" */ '@/views/noticeCenter/index')
       }]
     },
@@ -56,20 +56,20 @@ export const generatorDynamicRouter = async () => {
         {
           path: '/setting/companyinfo',
           name: 'company_info',
-          meta: { title: 'cs.menu.companyInfo', appName: 'backend', icon: 'ops-setting-companyInfo', selectedIcon: 'ops-setting-companyInfo', permission: ['公司信息', 'backend_admin'] },
+          meta: { title: 'cs.menu.companyInfo', appName: 'backend', icon: 'ops-setting-companyInfo', selectedIcon: 'ops-setting-companyInfo', permission: ['Company Info', 'backend_admin'] },
           component: () => import(/* webpackChunkName: "setting" */ '@/views/setting/companyInfo/index')
         },
         {
           path: '/setting/companystructure',
           name: 'company_structure',
-          meta: { title: 'cs.menu.companyStructure', appName: 'backend', icon: 'ops-setting-companyStructure', selectedIcon: 'ops-setting-companyStructure', permission: ['公司架构', 'backend_admin'] },
+          meta: { title: 'cs.menu.companyStructure', appName: 'backend', icon: 'ops-setting-companyStructure', selectedIcon: 'ops-setting-companyStructure', permission: ['Company Structure', 'backend_admin'] },
           component: () => import(/* webpackChunkName: "setting" */ '@/views/setting/companyStructure/index')
         },
         {
           path: '/setting/notice',
           name: 'notice',
           component: RouteView,
-          meta: { title: 'cs.menu.notice', appName: 'backend', icon: 'ops-setting-notice', selectedIcon: 'ops-setting-notice', permission: ['通知设置', 'backend_admin'] },
+          meta: { title: 'cs.menu.notice', appName: 'backend', icon: 'ops-setting-notice', selectedIcon: 'ops-setting-notice', permission: ['Notification Settings', 'backend_admin'] },
           redirect: '/setting/notice/email',
           children: [{
             path: '/setting/notice/basic',

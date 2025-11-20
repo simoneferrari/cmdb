@@ -1,44 +1,44 @@
 <template>
   <div :style="{ width: '490px' }">
     <el-tabs type="card" class="ops-crontab">
-      <el-tab-pane label="秒" v-if="shouldHide('second')">
+      <el-tab-pane :label="$t('crontab.second')" v-if="shouldHide('second')">
         <CrontabSecond @update="updateContabValue" :check="checkNumber" ref="cronsecond" />
       </el-tab-pane>
 
-      <el-tab-pane label="分钟" v-if="shouldHide('min')">
+      <el-tab-pane :label="$t('crontab.minute')" v-if="shouldHide('min')">
         <CrontabMin @update="updateContabValue" :check="checkNumber" :cron="contabValueObj" ref="cronmin" />
       </el-tab-pane>
 
-      <el-tab-pane label="小时" v-if="shouldHide('hour')">
+      <el-tab-pane :label="$t('crontab.hour')" v-if="shouldHide('hour')">
         <CrontabHour @update="updateContabValue" :check="checkNumber" :cron="contabValueObj" ref="cronhour" />
       </el-tab-pane>
 
-      <el-tab-pane label="日" v-if="shouldHide('day')">
+      <el-tab-pane :label="$t('crontab.day')" v-if="shouldHide('day')">
         <CrontabDay @update="updateContabValue" :check="checkNumber" :cron="contabValueObj" ref="cronday" />
       </el-tab-pane>
 
-      <el-tab-pane label="月" v-if="shouldHide('mouth')">
+      <el-tab-pane :label="$t('crontab.month')" v-if="shouldHide('mouth')">
         <CrontabMouth @update="updateContabValue" :check="checkNumber" :cron="contabValueObj" ref="cronmouth" />
       </el-tab-pane>
 
-      <el-tab-pane label="周" v-if="shouldHide('week')">
+      <el-tab-pane :label="$t('crontab.week')" v-if="shouldHide('week')">
         <CrontabWeek @update="updateContabValue" :check="checkNumber" :cron="contabValueObj" ref="cronweek" />
       </el-tab-pane>
 
-      <el-tab-pane label="年" v-if="shouldHide('year')">
+      <el-tab-pane :label="$t('crontab.year')" v-if="shouldHide('year')">
         <CrontabYear @update="updateContabValue" :check="checkNumber" :cron="contabValueObj" ref="cronyear" />
       </el-tab-pane>
     </el-tabs>
 
     <div class="popup-main">
       <div class="popup-result">
-        <p class="title">时间表达式</p>
+        <p class="title">{{ $t('crontab.timeExpression') }}</p>
         <div style="padding: 12px;">
           <div></div>
           <table>
             <thead>
               <th v-for="item of displayTabTitles" width="40" :key="item.value">{{ item.label }}</th>
-              <th>crontab完整表达式</th>
+              <th>{{ $t('crontab.fullExpression') }}</th>
             </thead>
             <tbody>
               <td v-if="shouldHide('second')">
@@ -73,9 +73,9 @@
     </div>
     <div class="pop_btn" v-if="hasFooter">
       <a-space>
-        <a-button size="small" type="primary" @click="submitFill">确定</a-button>
-        <a-button size="small" type="warning" @click="clearCron">重置</a-button>
-        <a-button size="small" @click="hidePopup">取消</a-button>
+        <a-button size="small" type="primary" @click="submitFill">{{ $t('crontab.ok') }}</a-button>
+        <a-button size="small" type="warning" @click="clearCron">{{ $t('crontab.reset') }}</a-button>
+        <a-button size="small" @click="hidePopup">{{ $t('crontab.cancel') }}</a-button>
       </a-space>
     </div>
   </div>
@@ -97,13 +97,13 @@ export default {
   data() {
     return {
       tabTitles: [
-        { value: 'second', label: '秒' },
-        { value: 'min', label: '分钟' },
-        { value: 'hour', label: '小时' },
-        { value: 'day', label: '日' },
-        { value: 'month', label: '月' },
-        { value: 'week', label: '周' },
-        { value: 'year', label: '年' },
+        { value: 'second', label: this.$t('crontab.second') },
+        { value: 'min', label: this.$t('crontab.minute') },
+        { value: 'hour', label: this.$t('crontab.hour') },
+        { value: 'day', label: this.$t('crontab.day') },
+        { value: 'month', label: this.$t('crontab.month') },
+        { value: 'week', label: this.$t('crontab.week') },
+        { value: 'year', label: this.$t('crontab.year') },
       ],
       tabActive: 0,
       myindex: 0,

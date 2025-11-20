@@ -3,7 +3,7 @@
     <a-form-item v-for="(node, index) in nodes" :key="node.id">
       <a-row :gutter="24">
         <a-col :span="6" :offset="1">
-          <a-form-item :label="index ? '' : 'ip地址'">
+          <a-form-item :label="index ? '' : $t('monitorNode.ipAddress')">
             <a-input
               allowClear
               size="small"
@@ -11,17 +11,17 @@
                 `node_ip_${node.id}`,
                 {
                   rules: [
-                    { required: false, message: '请输入ip地址' },
+                    { required: false, message: $t('monitorNode.enterIpAddress') },
                     {
                       pattern:
                         '^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$',
-                      message: 'ip地址格式错误',
+                      message: $t('monitorNode.ipFormatError'),
                       trigger: 'blur',
                     },
                   ],
                 },
               ]"
-              placeholder="请输入ip地址"
+              :placeholder="$t('monitorNode.enterIpAddress')"
             />
           </a-form-item>
         </a-col>
@@ -34,25 +34,25 @@
               v-decorator="[
                 `node_community_${node.id}`,
                 {
-                  rules: [{ required: false, message: '请输入community' }],
+                  rules: [{ required: false, message: $t('monitorNode.enterCommunity') }],
                 },
               ]"
-              placeholder="请输入community"
+              :placeholder="$t('monitorNode.enterCommunity')"
             />
           </a-form-item>
         </a-col>
 
         <a-col :span="6">
-          <a-form-item :label="index ? '' : '版本'" colon>
+          <a-form-item :label="index ? '' : $t('monitorNode.version')" colon>
             <a-select
               size="small"
               v-decorator="[
                 `node_version_${node.id}`,
                 {
-                  rules: [{ required: false, message: '请输入版本' }],
+                  rules: [{ required: false, message: $t('monitorNode.enterVersion') }],
                 },
               ]"
-              placeholder="请选择版本"
+              :placeholder="$t('monitorNode.selectVersion')"
             >
               <a-select-option value="1">
                 v1
@@ -79,7 +79,7 @@
     <a-form-item style="text-align: center">
       <a-button type="dashed" style="width: 30%;" @click="addNode">
         <a-icon type="plus" />
-        添加节点
+        {{ $t('monitorNode.addNode') }}
       </a-button>
     </a-form-item>
   </div>
@@ -128,7 +128,7 @@ export default {
     },
     removeNode(removeId, minLength) {
       if (this.nodes.length <= minLength) {
-        this.$message.error('不可再删除！')
+        this.$message.error(this.$t('monitorNode.cannotDelete'))
         return
       }
       const _idx = this.nodes.findIndex((item) => item.id === removeId)

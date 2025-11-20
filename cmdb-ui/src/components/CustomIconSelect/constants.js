@@ -140,152 +140,152 @@ export const linearIconList = [
     label: 'components.status',
     list: [{
       value: 'icon-xianxing-yiwen',
-      label: '疑问'
+      label: i18n.t('iconLabels.question')
     }, {
       value: 'icon-xianxing-zanting',
-      label: '暂停'
+      label: i18n.t('iconLabels.pause')
     }, {
       value: 'icon-xianxing-tianjia',
-      label: '添加'
+      label: i18n.t('iconLabels.add')
     }, {
       value: 'icon-xianxing-jianqu',
-      label: '减去'
+      label: i18n.t('iconLabels.subtract')
     }, {
       value: 'icon-xianxing-quxiao',
-      label: '取消'
+      label: i18n.t('iconLabels.cancel')
     }, {
       value: 'icon-xianxing-queren',
-      label: '确认'
+      label: i18n.t('iconLabels.confirm')
     }, {
       value: 'icon-xianxing-jinggao',
-      label: '警告'
+      label: i18n.t('iconLabels.warning')
     }, {
       value: 'icon-xianxing-jinzhi',
-      label: '禁止'
+      label: i18n.t('iconLabels.forbidden')
     }, {
       value: 'icon-xianxing-shuoming',
-      label: '说明'
+      label: i18n.t('iconLabels.description')
     }, {
       value: 'icon-xianxing-chulizhong',
-      label: '处理中'
+      label: i18n.t('iconLabels.processing')
     }, {
       value: 'icon-xianxing-zaixian',
-      label: '在线'
+      label: i18n.t('iconLabels.online')
     }, {
       value: 'icon-xianxing-xiaxian',
-      label: '下线'
+      label: i18n.t('iconLabels.offline')
     }]
   }, {
     value: 'icon-xianxing-application',
     label: 'components.commonComponent',
     list: [{
       value: 'icon-xianxing-yilianjie',
-      label: '已连接'
+      label: i18n.t('iconLabels.connected')
     }, {
       value: 'icon-xianxing-weilianjie',
-      label: '未连接'
+      label: i18n.t('iconLabels.disconnected')
     }, {
       value: 'icon-xianxing-shoucang',
-      label: '收藏'
+      label: i18n.t('iconLabels.favorites')
     }, {
       value: 'icon-xianxing-baojing',
-      label: '报警'
+      label: i18n.t('iconLabels.alarm')
     }, {
       value: 'icon-xianxing-erweima',
-      label: '二维码'
+      label: i18n.t('iconLabels.qrCode')
     }, {
       value: 'icon-xianxing-fenzhi',
-      label: '分支'
+      label: i18n.t('iconLabels.branch')
     }, {
       value: 'icon-xianxing-yunshuju',
-      label: '云数据'
+      label: i18n.t('iconLabels.cloudData')
     }, {
       value: 'icon-xianxing-yunshangchuan',
-      label: '云上传'
+      label: i18n.t('iconLabels.cloudUpload')
     }, {
       value: 'icon-xianxing-yunxiazai',
-      label: '云下载'
+      label: i18n.t('iconLabels.cloudDownload')
     }, {
       value: 'icon-xianxing-xiaoxi',
-      label: '消息'
+      label: i18n.t('iconLabels.message')
     }, {
       value: 'icon-xianxing-dingwei',
-      label: '定位'
+      label: i18n.t('iconLabels.location')
     }, {
       value: 'icon-xianxing-guankan',
-      label: '观看'
+      label: i18n.t('iconLabels.view')
     }, {
       value: 'icon-xianxing-jinzhiguankan',
-      label: '禁止观看'
+      label: i18n.t('iconLabels.noViewing')
     }, {
       value: 'icon-xianxing-yirenzheng',
-      label: '已认证'
+      label: i18n.t('iconLabels.verified')
     }, {
       value: 'icon-xianxing-weirenzheng',
-      label: '未认证'
+      label: i18n.t('iconLabels.unverified')
     }, {
       value: 'icon-xianxing-biaoqian',
-      label: '标签'
+      label: i18n.t('iconLabels.tag')
     }, {
       value: 'icon-xianxing-yonghu',
-      label: '用户'
+      label: i18n.t('iconLabels.user')
     }, {
       value: 'icon-xianxing-tianjiayonghu',
-      label: '添加用户'
+      label: i18n.t('iconLabels.addUser')
     }, {
       value: 'icon-xianxing-shanchuyonghu',
-      label: '删除用户'
+      label: i18n.t('iconLabels.deleteUser')
     }, {
       value: 'icon-xianxing-qiehuanyonghu',
-      label: '切换用户'
+      label: i18n.t('iconLabels.switchUser')
     }, {
       value: 'icon-xianxing-weixiu',
-      label: '维修'
+      label: i18n.t('iconLabels.maintenance')
     }, {
       value: 'icon-xianxing-wuliji',
-      label: '物理机'
+      label: i18n.t('iconLabels.physicalMachine')
     }, {
       value: 'icon-xianxing-xuniji',
-      label: '虚拟机'
+      label: i18n.t('iconLabels.virtualMachine')
     }, {
       value: 'icon-xianxing-docker',
       label: 'docker'
     }, {
       value: 'icon-xianxing-luyouqi',
-      label: '路由器'
+      label: i18n.t('iconLabels.router')
     }, {
       value: 'icon-xianxing-jiaohuanji',
-      label: '交换机'
+      label: i18n.t('iconLabels.switch')
     }, {
       value: 'icon-xianxing-fanghuoqiang',
-      label: '防火墙'
+      label: i18n.t('iconLabels.firewall')
     }, {
       value: 'icon-xianxing-fuzaijunheng',
-      label: '负载均衡'
+      label: i18n.t('iconLabels.loadBalancer')
     }, {
       value: 'icon-xianxing-wangka',
-      label: '网卡'
+      label: i18n.t('iconLabels.nic')
     }, {
       value: 'icon-xianxing-neicun',
-      label: '内存'
+      label: i18n.t('iconLabels.memory')
     }, {
       value: 'icon-xianxing-yingpan',
-      label: '硬盘'
+      label: i18n.t('iconLabels.hardDisk')
     }, {
       value: 'icon-xianxing-bumen',
-      label: '部门'
+      label: i18n.t('iconLabels.department')
     }, {
       value: 'icon-xianxing-chanpin',
-      label: '产品'
+      label: i18n.t('iconLabels.product')
     }, {
       value: 'icon-xianxing-dayinji',
-      label: '打印机'
+      label: i18n.t('iconLabels.printer')
     }, {
       value: 'icon-xianxing-chajian',
-      label: '插件'
+      label: i18n.t('iconLabels.plugin')
     }, {
       value: 'icon-xianxing-yingyong',
-      label: '应用'
+      label: i18n.t('iconLabels.application')
     }, {
       value: 'icon-xianxing-nginx',
       label: 'Nginx'
@@ -297,13 +297,13 @@ export const linearIconList = [
       label: 'Tomcat'
     }, {
       value: 'icon-xianxing-aliyun',
-      label: '阿里云'
+      label: i18n.t('iconLabels.alibabaCloud')
     }, {
       value: 'icon-xianxing-tengxunyun',
-      label: '腾讯云'
+      label: i18n.t('iconLabels.tencentCloud')
     }, {
       value: 'icon-xianxing-huaweiyun',
-      label: '华为云'
+      label: i18n.t('iconLabels.huaweiCloud')
     }, {
       value: 'icon-xianxing-aws',
       label: 'AWS'
@@ -313,61 +313,61 @@ export const linearIconList = [
     label: 'components.data',
     list: [{
       value: 'icon-xianxing-bingzhuangtu',
-      label: '饼状图'
+      label: i18n.t('iconLabels.pieChart')
     }, {
       value: 'icon-xianxing-huanxingtu',
-      label: '环形图'
+      label: i18n.t('iconLabels.ringChart')
     }, {
       value: 'icon-xianxing-zhuzhuangtu',
-      label: '柱状图'
+      label: i18n.t('iconLabels.barChart')
     }, {
       value: 'icon-xianxing-tiaoxingtu',
-      label: '条形图'
+      label: i18n.t('iconLabels.horizontalBar')
     }, {
       value: 'icon-xianxing-mianjitu',
-      label: '面积图'
+      label: i18n.t('iconLabels.areaChart')
     }, {
       value: 'icon-xianxing-pubutu',
-      label: '瀑布图'
+      label: i18n.t('iconLabels.waterfallChart')
     }, {
       value: 'icon-xianxing-xiangxingtu',
-      label: '箱型图'
+      label: i18n.t('iconLabels.boxPlot')
     }, {
       value: 'icon-xianxing-zhexiantu',
-      label: '折线图'
+      label: i18n.t('iconLabels.lineChart')
     }, {
       value: 'icon-xianxing-dianzhuangtu',
-      label: '点状图'
+      label: i18n.t('iconLabels.scatterPlot')
     }, {
       value: 'icon-xianxing-redutu',
-      label: '热度图'
+      label: i18n.t('iconLabels.heatMap')
     }, {
       value: 'icon-xianxing-shangsheng',
-      label: '上升'
+      label: i18n.t('iconLabels.rising')
     }, {
       value: 'icon-xianxing-xiajiang',
-      label: '下降'
+      label: i18n.t('iconLabels.falling')
     }, {
       value: 'icon-xianxing-gupiaotu',
-      label: '股票图'
+      label: i18n.t('iconLabels.stockChart')
     }, {
       value: 'icon-xianxing-jijintu',
-      label: '基金图'
+      label: i18n.t('iconLabels.fundChart')
     }, {
       value: 'icon-xianxing-huakuaitu',
-      label: '滑块图'
+      label: i18n.t('iconLabels.sliderChart')
     }, {
       value: 'icon-xianxing-leidatu',
-      label: '雷达图'
+      label: i18n.t('iconLabels.radarChart')
     }, {
       value: 'icon-xianxing-shishu',
-      label: '整数'
+      label: i18n.t('iconLabels.integer')
     }, {
       value: 'icon-xianxing-fudianshu',
-      label: '浮点数'
+      label: i18n.t('iconLabels.float')
     }, {
       value: 'icon-xianxing-wenben',
-      label: '文本'
+      label: i18n.t('iconLabels.text')
     }, {
       value: 'icon-xianxing-datetime',
       label: 'datetime'
@@ -480,152 +480,152 @@ export const fillIconList = [
     label: 'components.status',
     list: [{
       value: 'icon-shidi-yiwen',
-      label: '疑问'
+      label: i18n.t('iconLabels.question')
     }, {
       value: 'icon-shidi-zanting',
-      label: '暂停'
+      label: i18n.t('iconLabels.pause')
     }, {
       value: 'icon-shidi-tianjia',
-      label: '添加'
+      label: i18n.t('iconLabels.add')
     }, {
       value: 'icon-shidi-jianqu',
-      label: '减去'
+      label: i18n.t('iconLabels.subtract')
     }, {
       value: 'icon-shidi-quxiao',
-      label: '取消'
+      label: i18n.t('iconLabels.cancel')
     }, {
       value: 'icon-shidi-queren',
-      label: '确认'
+      label: i18n.t('iconLabels.confirm')
     }, {
       value: 'icon-shidi-jinggao',
-      label: '警告'
+      label: i18n.t('iconLabels.warning')
     }, {
       value: 'icon-shidi-jinzhi',
-      label: '禁止'
+      label: i18n.t('iconLabels.forbidden')
     }, {
       value: 'icon-shidi-shuoming',
-      label: '说明'
+      label: i18n.t('iconLabels.description')
     }, {
       value: 'icon-shidi-chulizhong',
-      label: '处理中'
+      label: i18n.t('iconLabels.processing')
     }, {
       value: 'icon-shidi-zaixian',
-      label: '在线'
+      label: i18n.t('iconLabels.online')
     }, {
       value: 'icon-shidi-xiaxian',
-      label: '下线'
+      label: i18n.t('iconLabels.offline')
     }]
   }, {
     value: 'icon-shidi-application',
     label: 'components.commonComponent',
     list: [{
       value: 'icon-shidi-yilianjie',
-      label: '已连接'
+      label: i18n.t('iconLabels.connected')
     }, {
       value: 'icon-shidi-weilianjie',
-      label: '未连接'
+      label: i18n.t('iconLabels.disconnected')
     }, {
       value: 'icon-shidi-shoucang',
-      label: '收藏'
+      label: i18n.t('iconLabels.favorites')
     }, {
       value: 'icon-shidi-baojing',
-      label: '报警'
+      label: i18n.t('iconLabels.alarm')
     }, {
       value: 'icon-shidi-erweima',
-      label: '二维码'
+      label: i18n.t('iconLabels.qrCode')
     }, {
       value: 'icon-shidi-fenzhi',
-      label: '分支'
+      label: i18n.t('iconLabels.branch')
     }, {
       value: 'icon-shidi-yunshuju',
-      label: '云数据'
+      label: i18n.t('iconLabels.cloudData')
     }, {
       value: 'icon-shidi-yunshangchuan',
-      label: '云上传'
+      label: i18n.t('iconLabels.cloudUpload')
     }, {
       value: 'icon-shidi-yunxiazai',
-      label: '云下载'
+      label: i18n.t('iconLabels.cloudDownload')
     }, {
       value: 'icon-shidi-xiaoxi',
-      label: '消息'
+      label: i18n.t('iconLabels.message')
     }, {
       value: 'icon-shidi-dingwei',
-      label: '定位'
+      label: i18n.t('iconLabels.location')
     }, {
       value: 'icon-shidi-guankan',
-      label: '观看'
+      label: i18n.t('iconLabels.view')
     }, {
       value: 'icon-shidi-jinzhiguankan',
-      label: '禁止观看'
+      label: i18n.t('iconLabels.noViewing')
     }, {
       value: 'icon-shidi-yirenzheng',
-      label: '已认证'
+      label: i18n.t('iconLabels.verified')
     }, {
       value: 'icon-shidi-weirenzheng',
-      label: '未认证'
+      label: i18n.t('iconLabels.unverified')
     }, {
       value: 'icon-shidi-biaoqian',
-      label: '标签'
+      label: i18n.t('iconLabels.tag')
     }, {
       value: 'icon-shidi-yonghu',
-      label: '用户'
+      label: i18n.t('iconLabels.user')
     }, {
       value: 'icon-shidi-tianjiayonghu',
-      label: '添加用户'
+      label: i18n.t('iconLabels.addUser')
     }, {
       value: 'icon-shidi-shanchuyonghu',
-      label: '删除用户'
+      label: i18n.t('iconLabels.deleteUser')
     }, {
       value: 'icon-shidi-qiehuanyonghu',
-      label: '切换用户'
+      label: i18n.t('iconLabels.switchUser')
     }, {
       value: 'icon-shidi-weixiu',
-      label: '维修'
+      label: i18n.t('iconLabels.maintenance')
     }, {
       value: 'icon-shidi-wuliji',
-      label: '物理机'
+      label: i18n.t('iconLabels.physicalMachine')
     }, {
       value: 'icon-shidi-xuniji',
-      label: '虚拟机'
+      label: i18n.t('iconLabels.virtualMachine')
     }, {
       value: 'icon-shidi-docker',
       label: 'docker'
     }, {
       value: 'icon-shidi-luyouqi',
-      label: '路由器'
+      label: i18n.t('iconLabels.router')
     }, {
       value: 'icon-shidi-jiaohuanji',
-      label: '交换机'
+      label: i18n.t('iconLabels.switch')
     }, {
       value: 'icon-shidi-fanghuoqiang',
-      label: '防火墙'
+      label: i18n.t('iconLabels.firewall')
     }, {
       value: 'icon-shidi-fuzaijunheng',
-      label: '负载均衡'
+      label: i18n.t('iconLabels.loadBalancer')
     }, {
       value: 'icon-shidi-wangka',
-      label: '网卡'
+      label: i18n.t('iconLabels.nic')
     }, {
       value: 'icon-shidi-neicun',
-      label: '内存'
+      label: i18n.t('iconLabels.memory')
     }, {
       value: 'icon-shidi-yingpan',
-      label: '硬盘'
+      label: i18n.t('iconLabels.hardDisk')
     }, {
       value: 'icon-shidi-bumen',
-      label: '部门'
+      label: i18n.t('iconLabels.department')
     }, {
       value: 'icon-shidi-chanpin',
-      label: '产品'
+      label: i18n.t('iconLabels.product')
     }, {
       value: 'icon-shidi-dayinji',
-      label: '打印机'
+      label: i18n.t('iconLabels.printer')
     }, {
       value: 'icon-shidi-chajian',
-      label: '插件'
+      label: i18n.t('iconLabels.plugin')
     }, {
       value: 'icon-shidi-yingyong',
-      label: '应用'
+      label: i18n.t('iconLabels.application')
     }, {
       value: 'icon-shidi-nginx',
       label: 'Nginx'
@@ -637,13 +637,13 @@ export const fillIconList = [
       label: 'Tomcat'
     }, {
       value: 'icon-shidi-aliyun',
-      label: '阿里云'
+      label: i18n.t('iconLabels.alibabaCloud')
     }, {
       value: 'icon-shidi-tengxunyun',
-      label: '腾讯云'
+      label: i18n.t('iconLabels.tencentCloud')
     }, {
       value: 'icon-shidi-huaweiyun',
-      label: '华为云'
+      label: i18n.t('iconLabels.huaweiCloud')
     }, {
       value: 'icon-shidi-aws',
       label: 'AWS'
@@ -653,61 +653,61 @@ export const fillIconList = [
     label: 'components.data',
     list: [{
       value: 'icon-shidi-bingzhuangtu',
-      label: '饼状图'
+      label: i18n.t('iconLabels.pieChart')
     }, {
       value: 'icon-shidi-huanxingtu',
-      label: '环形图'
+      label: i18n.t('iconLabels.ringChart')
     }, {
       value: 'icon-shidi-zhuzhuangtu',
-      label: '柱状图'
+      label: i18n.t('iconLabels.barChart')
     }, {
       value: 'icon-shidi-tiaoxingtu',
-      label: '条形图'
+      label: i18n.t('iconLabels.horizontalBar')
     }, {
       value: 'icon-shidi-mianjitu',
-      label: '面积图'
+      label: i18n.t('iconLabels.areaChart')
     }, {
       value: 'icon-shidi-pubutu',
-      label: '瀑布图'
+      label: i18n.t('iconLabels.waterfallChart')
     }, {
       value: 'icon-shidi-xiangxingtu',
-      label: '箱型图'
+      label: i18n.t('iconLabels.boxPlot')
     }, {
       value: 'icon-shidi-zhexiantu',
-      label: '折线图'
+      label: i18n.t('iconLabels.lineChart')
     }, {
       value: 'icon-shidi-dianzhuangtu',
-      label: '点状图'
+      label: i18n.t('iconLabels.scatterPlot')
     }, {
       value: 'icon-shidi-redutu',
-      label: '热度图'
+      label: i18n.t('iconLabels.heatMap')
     }, {
       value: 'icon-shidi-shangsheng',
-      label: '上升'
+      label: i18n.t('iconLabels.rising')
     }, {
       value: 'icon-shidi-xiajiang',
-      label: '下降'
+      label: i18n.t('iconLabels.falling')
     }, {
       value: 'icon-shidi-gupiaotu',
-      label: '股票图'
+      label: i18n.t('iconLabels.stockChart')
     }, {
       value: 'icon-shidi-jijintu',
-      label: '基金图'
+      label: i18n.t('iconLabels.fundChart')
     }, {
       value: 'icon-shidi-huakuaitu',
-      label: '滑块图'
+      label: i18n.t('iconLabels.sliderChart')
     }, {
       value: 'icon-shidi-leidatu',
-      label: '雷达图'
+      label: i18n.t('iconLabels.radarChart')
     }, {
       value: 'icon-shidi-shishu',
-      label: '整数'
+      label: i18n.t('iconLabels.integer')
     }, {
       value: 'icon-shidi-fudianshu',
-      label: '浮点数'
+      label: i18n.t('iconLabels.float')
     }, {
       value: 'icon-shidi-wenben',
-      label: '文本'
+      label: i18n.t('iconLabels.text')
     }, {
       value: 'icon-shidi-datetime',
       label: 'datetime'
@@ -733,7 +733,7 @@ export const multicolorIconList = [
       label: 'TIDB'
     }, {
       value: 'caise-dameng',
-      label: '达梦'
+      label: i18n.t('iconLabels.dameng')
     }, {
       value: 'caise-kingbase',
       label: 'KingBase'
@@ -785,28 +785,28 @@ export const multicolorIconList = [
       label: 'Google Cloud Platform'
     }, {
       value: 'Alibaba_Cloud',
-      label: '阿里云'
+      label: i18n.t('iconLabels.alibabaCloud')
     }, {
       value: 'Huawei_Cloud',
-      label: '华为云'
+      label: i18n.t('iconLabels.huaweiCloud')
     }, {
       value: 'Tencent_Cloud',
-      label: '腾讯云'
+      label: i18n.t('iconLabels.tencentCloud')
     }, {
       value: 'UCloud',
       label: 'UCloud'
     }, {
       value: 'Ctyun',
-      label: '天翼云'
+      label: i18n.t('iconLabels.ctyun')
     }, {
       value: 'ECloud',
-      label: '移动云'
+      label: i18n.t('iconLabels.ecloud')
     }, {
       value: 'JDCloud',
-      label: '京东云'
+      label: i18n.t('iconLabels.jdCloud')
     }, {
       value: 'Bytecloud',
-      label: '字节云'
+      label: i18n.t('iconLabels.byteCloud')
     }, {
       value: 'OpenStack',
       label: 'OpenStack'
@@ -881,40 +881,40 @@ export const multicolorIconList = [
     label: 'components.status',
     list: [{
       value: 'caise-yiwen',
-      label: '疑问'
+      label: i18n.t('iconLabels.question')
     }, {
       value: 'caise-zanting',
-      label: '暂停'
+      label: i18n.t('iconLabels.pause')
     }, {
       value: 'caise-tianjia',
-      label: '添加'
+      label: i18n.t('iconLabels.add')
     }, {
       value: 'caise-jianqu',
-      label: '减去'
+      label: i18n.t('iconLabels.subtract')
     }, {
       value: 'caise-quxiao',
-      label: '取消'
+      label: i18n.t('iconLabels.cancel')
     }, {
       value: 'caise-queren',
-      label: '确认'
+      label: i18n.t('iconLabels.confirm')
     }, {
       value: 'caise-jinggao',
-      label: '警告'
+      label: i18n.t('iconLabels.warning')
     }, {
       value: 'caise-jinzhi',
-      label: '禁止'
+      label: i18n.t('iconLabels.forbidden')
     }, {
       value: 'caise-shuoming',
-      label: '说明'
+      label: i18n.t('iconLabels.description')
     }, {
       value: 'caise-chulizhong',
-      label: '处理中'
+      label: i18n.t('iconLabels.processing')
     }, {
       value: 'caise-zaixian',
-      label: '在线'
+      label: i18n.t('iconLabels.online')
     }, {
       value: 'caise-xiaxian',
-      label: '下线'
+      label: i18n.t('iconLabels.offline')
     }]
   }, {
     value: 'caise-application',
@@ -936,7 +936,7 @@ export const multicolorIconList = [
       label: 'kafka'
     }, {
       value: 'caise-dongfangtong',
-      label: '东方通'
+      label: i18n.t('iconLabels.tongtech')
     }, {
       value: 'cmdb-vcenter',
       label: 'VCenter'
@@ -951,67 +951,67 @@ export const multicolorIconList = [
       label: 'WebLogic'
     }, {
       value: 'caise-disk_array',
-      label: '磁盘阵列'
+      label: i18n.t('iconLabels.diskArray')
     }, {
       value: 'caise-fiber',
-      label: '光纤交换机'
+      label: i18n.t('iconLabels.fiberSwitch')
     }, {
       value: 'caise-bandwidth_line',
-      label: '带宽线路'
+      label: i18n.t('iconLabels.bandwidthLine')
     }, {
       value: 'caise-pc',
       label: 'PC'
     }, {
       value: 'caise-rack',
-      label: '机柜'
+      label: i18n.t('iconLabels.rack')
     }, {
       value: 'caise-computer_room',
-      label: '机房'
+      label: i18n.t('iconLabels.computerRoom')
     }, {
       value: 'caise-ip_address',
-      label: 'ip地址'
+      label: i18n.t('iconLabels.ipAddress')
     }, {
       value: 'caise_pool',
-      label: 'ip池'
+      label: i18n.t('iconLabels.ipPool')
     }, {
       value: 'caise-storage_volume1',
-      label: '存储卷'
+      label: i18n.t('iconLabels.storageVolume')
     }, {
       value: 'caise-virtualization',
-      label: '虚拟化'
+      label: i18n.t('iconLabels.virtualization')
     }, {
       value: 'caise-business',
-      label: '业务'
+      label: i18n.t('iconLabels.business')
     }, {
       value: 'caise-database',
-      label: '数据库'
+      label: i18n.t('iconLabels.database')
     }, {
       value: 'caise-middleware',
-      label: '中间件'
+      label: i18n.t('iconLabels.middleware')
     }, {
       value: 'caise-websever',
       label: 'websever'
     }, {
       value: 'caise-message_queue',
-      label: '消息队列'
+      label: i18n.t('iconLabels.messageQueue')
     }, {
       value: 'caise-load_balancing',
-      label: '负载均衡'
+      label: i18n.t('iconLabels.loadBalancer')
     }, {
       value: 'caise-storage_device',
-      label: '存储设备'
+      label: i18n.t('iconLabels.storageDevice')
     }, {
       value: 'caise-network_devices',
-      label: '网络设备'
+      label: i18n.t('iconLabels.networkDevice')
     }, {
       value: 'caise-computer',
-      label: '计算机'
+      label: i18n.t('iconLabels.computer')
     }, {
       value: 'caise-hardware',
-      label: '硬件设备'
+      label: i18n.t('iconLabels.hardware')
     }, {
       value: 'caise-data_center2',
-      label: '数据中心'
+      label: i18n.t('iconLabels.dataCenter')
     }, {
       value: 'caise-hyperV',
       label: 'hyperV'
@@ -1020,145 +1020,145 @@ export const multicolorIconList = [
       label: 'IPAM'
     }, {
       value: 'caise-system',
-      label: '操作系统'
+      label: i18n.t('iconLabels.operatingSystem')
     }, {
       value: 'caise-public_cloud',
-      label: '公有云'
+      label: i18n.t('iconLabels.publicCloud')
     }, {
       value: 'caise-data_center',
-      label: '数据中心'
+      label: i18n.t('iconLabels.dataCenter')
     }, {
       value: 'caise-folder',
-      label: '文件夹'
+      label: i18n.t('iconLabels.folder')
     }, {
       value: 'caise-resource_pool',
-      label: '资源池'
+      label: i18n.t('iconLabels.resourcePool')
     }, {
       value: 'caise-network',
-      label: '网络'
+      label: i18n.t('iconLabels.network')
     }, {
       value: 'caise-distributed_switch',
-      label: '分布式交换机'
+      label: i18n.t('iconLabels.distributedSwitch')
     }, {
       value: 'caise-standard_switch',
-      label: '标准式交换机'
+      label: i18n.t('iconLabels.standardSwitch')
     }, {
       value: 'caise-host_cluster',
-      label: '主机集群'
+      label: i18n.t('iconLabels.hostCluster')
     }, {
       value: 'caise-storage_cluster',
-      label: '数据存储集群'
+      label: i18n.t('iconLabels.dataStorageCluster')
     }, {
       value: 'caise-data_storage',
-      label: '数据存储'
+      label: i18n.t('iconLabels.dataStorage')
     }, {
       value: 'caise-yilianjie',
-      label: '已连接'
+      label: i18n.t('iconLabels.connected')
     }, {
       value: 'caise-weilianjie',
-      label: '未连接'
+      label: i18n.t('iconLabels.disconnected')
     }, {
       value: 'caise-shoucang',
-      label: '收藏'
+      label: i18n.t('iconLabels.favorites')
     }, {
       value: 'caise-baojing',
-      label: '报警'
+      label: i18n.t('iconLabels.alarm')
     }, {
       value: 'caise-erweima',
-      label: '二维码'
+      label: i18n.t('iconLabels.qrCode')
     }, {
       value: 'caise-fenzhi',
-      label: '分支'
+      label: i18n.t('iconLabels.branch')
     }, {
       value: 'caise-yunshuju',
-      label: '云数据'
+      label: i18n.t('iconLabels.cloudData')
     }, {
       value: 'caise-yunshangchuan',
-      label: '云上传'
+      label: i18n.t('iconLabels.cloudUpload')
     }, {
       value: 'caise-yunxiazai',
-      label: '云下载'
+      label: i18n.t('iconLabels.cloudDownload')
     }, {
       value: 'caise-xiaoxi',
-      label: '消息'
+      label: i18n.t('iconLabels.message')
     }, {
       value: 'caise-dingwei',
-      label: '定位'
+      label: i18n.t('iconLabels.location')
     }, {
       value: 'caise-guankan',
-      label: '观看'
+      label: i18n.t('iconLabels.view')
     }, {
       value: 'caise-jinzhiguankan',
-      label: '禁止观看'
+      label: i18n.t('iconLabels.noViewing')
     }, {
       value: 'caise-yirenzheng',
-      label: '已认证'
+      label: i18n.t('iconLabels.verified')
     }, {
       value: 'caise-weirenzheng',
-      label: '未认证'
+      label: i18n.t('iconLabels.unverified')
     }, {
       value: 'caise-biaoqian',
-      label: '标签'
+      label: i18n.t('iconLabels.tag')
     }, {
       value: 'caise-yonghu',
-      label: '用户'
+      label: i18n.t('iconLabels.user')
     }, {
       value: 'caise-tianjiayonghu',
-      label: '添加用户'
+      label: i18n.t('iconLabels.addUser')
     }, {
       value: 'caise-shanchuyonghu',
-      label: '删除用户'
+      label: i18n.t('iconLabels.deleteUser')
     }, {
       value: 'caise-qiehuanyonghu',
-      label: '切换用户'
+      label: i18n.t('iconLabels.switchUser')
     }, {
       value: 'caise-weixiu',
-      label: '维修'
+      label: i18n.t('iconLabels.maintenance')
     }, {
       value: 'caise-wuliji',
-      label: '物理机'
+      label: i18n.t('iconLabels.physicalMachine')
     }, {
       value: 'caise-xuniji',
-      label: '虚拟机'
+      label: i18n.t('iconLabels.virtualMachine')
     }, {
       value: 'caise-docker',
       label: 'docker'
     }, {
       value: 'caise-luyouqi',
-      label: '路由器'
+      label: i18n.t('iconLabels.router')
     }, {
       value: 'caise-jiaohuanji',
-      label: '交换机'
+      label: i18n.t('iconLabels.switch')
     }, {
       value: 'caise-fanghuoqiang',
-      label: '防火墙'
+      label: i18n.t('iconLabels.firewall')
     }, {
       value: 'caise-fuzaijunheng',
-      label: '负载均衡'
+      label: i18n.t('iconLabels.loadBalancer')
     }, {
       value: 'caise-wangka',
-      label: '网卡'
+      label: i18n.t('iconLabels.nic')
     }, {
       value: 'caise-neicun',
-      label: '内存'
+      label: i18n.t('iconLabels.memory')
     }, {
       value: 'caise-yingpan',
-      label: '硬盘'
+      label: i18n.t('iconLabels.hardDisk')
     }, {
       value: 'caise-bumen',
-      label: '部门'
+      label: i18n.t('iconLabels.department')
     }, {
       value: 'caise-chanpin',
-      label: '产品'
+      label: i18n.t('iconLabels.product')
     }, {
       value: 'caise-yingyong',
-      label: '应用'
+      label: i18n.t('iconLabels.application')
     }, {
       value: 'caise-dayinji',
-      label: '打印机'
+      label: i18n.t('iconLabels.printer')
     }, {
       value: 'caise-chajian',
-      label: '插件'
+      label: i18n.t('iconLabels.plugin')
     }, {
       value: 'caise-nginx',
       label: 'Nginx'
@@ -1176,68 +1176,68 @@ export const multicolorIconList = [
       label: 'CDN'
     }, {
       value: 'caise-OOS',
-      label: '对象存储'
+      label: i18n.t('iconLabels.objectStorage')
     }]
   }, {
     value: 'data',
     label: 'components.data',
     list: [{
       value: 'caise-bingzhuangtu',
-      label: '饼状图'
+      label: i18n.t('iconLabels.pieChart')
     }, {
       value: 'caise-huanxingtu',
-      label: '环形图'
+      label: i18n.t('iconLabels.ringChart')
     }, {
       value: 'caise-zhuzhuangtu',
-      label: '柱状图'
+      label: i18n.t('iconLabels.barChart')
     }, {
       value: 'caise-tiaoxingtu',
-      label: '条形图'
+      label: i18n.t('iconLabels.horizontalBar')
     }, {
       value: 'caise-mianjitu',
-      label: '面积图'
+      label: i18n.t('iconLabels.areaChart')
     }, {
       value: 'caise-pubutu',
-      label: '瀑布图'
+      label: i18n.t('iconLabels.waterfallChart')
     }, {
       value: 'caise-xiangxingtu',
-      label: '箱型图'
+      label: i18n.t('iconLabels.boxPlot')
     }, {
       value: 'caise-zhexiantu',
-      label: '折线图'
+      label: i18n.t('iconLabels.lineChart')
     }, {
       value: 'caise-dianzhuangtu',
-      label: '点状图'
+      label: i18n.t('iconLabels.scatterPlot')
     }, {
       value: 'caise-redutu',
-      label: '热度图'
+      label: i18n.t('iconLabels.heatMap')
     }, {
       value: 'caise-shangsheng',
-      label: '上升'
+      label: i18n.t('iconLabels.rising')
     }, {
       value: 'caise-xiajiang',
-      label: '下降'
+      label: i18n.t('iconLabels.falling')
     }, {
       value: 'caise-gupiaotu',
-      label: '股票图'
+      label: i18n.t('iconLabels.stockChart')
     }, {
       value: 'caise-jijintu',
-      label: '基金图'
+      label: i18n.t('iconLabels.fundChart')
     }, {
       value: 'caise-huakuaitu',
-      label: '滑块图'
+      label: i18n.t('iconLabels.sliderChart')
     }, {
       value: 'caise-leidatu',
-      label: '雷达图'
+      label: i18n.t('iconLabels.radarChart')
     }, {
       value: 'caise-shishu',
-      label: '整数'
+      label: i18n.t('iconLabels.integer')
     }, {
       value: 'caise-fudianshu',
-      label: '浮点数'
+      label: i18n.t('iconLabels.float')
     }, {
       value: 'caise-wenben',
-      label: '文本'
+      label: i18n.t('iconLabels.text')
     }, {
       value: 'caise-datetime',
       label: 'datetime'
