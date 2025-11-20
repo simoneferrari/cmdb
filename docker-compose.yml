@@ -44,6 +44,7 @@ services:
     build:
       context: .
       dockerfile: docker/Dockerfile-API
+    image: cmdb-api:latest
     container_name: cmdb-api
     env_file:
       - .env
@@ -90,6 +91,7 @@ services:
     build:
       context: .
       dockerfile: docker/Dockerfile-UI
+    image: cmdb-ui:latest
     container_name: cmdb-ui
     depends_on:
       cmdb-api:
