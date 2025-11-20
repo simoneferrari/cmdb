@@ -47,6 +47,13 @@ module.exports = {
   chainWebpack: (config) => {
     config.resolve.alias.set('@$', resolve('src'))
 
+    // Exclude large iconfont.js from babel transpilation to prevent deoptimization warning
+    // The file is 2MB of SVG icon data and doesn't need transpilation
+    config.module
+      .rule('js')
+      .exclude
+      .add(/public[\\/]iconfont[\\/]iconfont\.js$/)
+
     const svgRule = config.module.rule('svg')
     svgRule.uses.clear()
     svgRule
